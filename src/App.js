@@ -20,9 +20,9 @@ function App() {
 
   return (
     <div className="App">
-      <ParallaxAppBar 
+      {/* <ParallaxAppBar 
         login={()=>authWithGoogle()}
-      />
+      /> */}
       <Router>
         <Switch>
           <Route path="/art/:user/:artwork">

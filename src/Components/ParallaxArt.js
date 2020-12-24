@@ -63,12 +63,15 @@ const ProvidedArt = (props) => {
   )
 }
 //shits not working when wraping it in a div. fix it so that the div in parllax art is the scorll parent not the body tag.
-const Art = ({scrollContainer,...props}) => (
-  <ParallaxProvider
-    scrollContainer={scrollContainer}
-  >
-    <ProvidedArt {...props} />
-  </ParallaxProvider>
-)
+// const Art = (props) => {
+//   console.log(props)
+//   return (
+//   <ParallaxProvider
+//     scrollContainer={props.scrollContainer}
+//   >
+//     <ProvidedArt {...props} />
+//   </ParallaxProvider>
+//   )
+// }
 
-export default Art
+export default ProvidedArt
